@@ -8,6 +8,6 @@ In order to generate the verification case study, run the "Barrier_Verification.
 
 The files "pqfile.mat" and pqfile_under.mat" contain under and over approximations of the unit squared center at the origin, which is used to approximate any state in the partition as detailed in the paper.
 
-Note that these files are unparallelized version of the code. In order to speed up the runtime, feel free to parallelize the loops in the function "Probability_Interval_Computation_Barrier" in the file "Barrier_Verification_Functions.py", and the loops in the functions "BMDP_Probability_Interval_Computation_Barrier" in the file "Barrier_Synthesis_Functions.py".
+These files are unparallelized versions of the procedure. In order to speed up the runtime, feel free to parallelize the loops in the function "Probability_Interval_Computation_Barrier" in the file "Barrier_Verification_Functions.py", and the loops in the functions "BMDP_Probability_Interval_Computation_Barrier" in the file "Barrier_Synthesis_Functions.py".
 
 If you have any questions or issues regarding the code, please email me at maxdutreix@gatech.edu.
